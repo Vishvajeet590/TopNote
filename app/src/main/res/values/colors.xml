@@ -13,4 +13,5 @@
     <color name="iconPrimary">#7b7890</color>
     <color name="textPrimaryWhite">#fefefe</color>
     <color name="textPrimaryGrey">#807d92</color>
+    <color name="primaryBackroundDark">#0d0934</color>
 </resources>

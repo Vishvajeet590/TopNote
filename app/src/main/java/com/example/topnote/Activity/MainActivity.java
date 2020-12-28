@@ -1,8 +1,10 @@
-package com.example.topnote;
+package com.example.topnote.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.topnote.R;
 
 public class MainActivity extends AppCompatActivity {
 

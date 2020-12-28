@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TopNote">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".Activity.SplashScreen"
+            android:label="@string/title_activity_splash_screen"
+            android:theme="@style/Theme.TopNote.NoActionBar"></activity>
+        <activity android:name=".Activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
