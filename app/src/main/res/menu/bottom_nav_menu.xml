@@ -12,7 +12,7 @@
         />
     <item
         android:id="@+id/Profile_nav"
-        android:icon="@drawable/ic_user__1_"
+        android:icon="@drawable/ic_user"
         android:title="Me" />
 
 </menu>

@@ -27,7 +27,7 @@
                 app:backgroundTint="@android:color/transparent"
                 app:elevation="0dp"
                 android:layout_marginEnd="100dp"
-                app:itemIconTint="@android:color/white"
+                app:itemIconTint="@color/white"
                 app:itemRippleColor="@android:color/white"
                 app:itemTextColor="@android:color/white"
                 app:menu="@menu/bottom_nav_menu" />
@@ -44,7 +44,7 @@
             app:backgroundTint="@color/selectedHighlight"/>
 
     <fragment
-        android:id="@+id/fragment"
+        android:id="@+id/navhost_fragment_main"
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

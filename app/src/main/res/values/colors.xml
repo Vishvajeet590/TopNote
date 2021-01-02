@@ -9,7 +9,7 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="primaryBackground">#090622</color>
-    <color name="selectedHighlight">#7c37fa</color>
+    <color name="selectedHighlight">#6c63ff</color>
     <color name="iconPrimary">#7b7890</color>
     <color name="textPrimaryWhite">#fefefe</color>
     <color name="textPrimaryGrey">#807d92</color>

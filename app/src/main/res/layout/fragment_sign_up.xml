@@ -9,7 +9,7 @@
     tools:context=".authorization.SignUpFragment">
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton"
+        android:id="@+id/signUpBtn_signUpFragment"
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_marginStart="16dp"
@@ -26,7 +26,7 @@
         app:layout_constraintVertical_bias="0.43" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/signInBtn_signUpFragment"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="match_parent"
         android:layout_height="55dp"
@@ -38,7 +38,7 @@
         android:textSize="15sp"
         app:backgroundTint="@android:color/transparent"
         app:cornerRadius="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/materialButton"
+        app:layout_constraintBottom_toTopOf="@+id/signUpBtn_signUpFragment"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,7 +54,7 @@
         android:text="Welcome!"
         android:textColor="@color/textPrimaryWhite"
         android:textSize="36sp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/signInBtn_signUpFragment"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -86,7 +86,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/materialButton"
+        app:layout_constraintTop_toBottomOf="@+id/signUpBtn_signUpFragment"
         app:layout_constraintVertical_bias="0.7" />
 
     <TextView
